@@ -1,0 +1,7 @@
+(pipwerks.SCORM.version == "2004");pipwerks.SCORM.set("cmi.success_statud", "passed");
+setSessionTime();
+pipwerks.SCORM.set("adl.nav.request", "exitAll");
+pipwerks.SCORM.status("set", "completed");
+pipwerks.SCORM.set("cmi.success_status", "passed");
+pipwerks.SCORM.save();
+pipwerks.SCORM.quit(true);
